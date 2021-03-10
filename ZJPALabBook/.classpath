@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/main" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15/">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/javax.persistence-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/spring-aop-5.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/spring-beans-5.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/di-spring-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/spring-context-5.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/spring-core-5.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/spring-expression-5.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/spring-jcl-5.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/spring-web-5.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SHIVENDRA/Desktop/jars/correctjars/spring-webmvc-5.3.4.jar"/>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>
