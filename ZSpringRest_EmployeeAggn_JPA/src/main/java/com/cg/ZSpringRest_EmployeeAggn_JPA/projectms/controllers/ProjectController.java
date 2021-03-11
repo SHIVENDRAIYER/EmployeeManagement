@@ -46,5 +46,14 @@ public class ProjectController {
 		ProjectDetails details = projectUtil.toProjectDetails(project);
 		return details;
 	}
+	
+
+    @PutMapping("/students/remove")
+    public ProjectDetails removeEmployeeFromProject(@RequestBody RemoveEmployeeFromProjectRequest data){
+    	
+        Project project = projectService.removeEmployeeFromProject(data.getProjectId(),data.getEmployeeId());
+        ProjectDetails details = projectUtil.toProjectDetails(project);
+        return details;
+    }
 
 }

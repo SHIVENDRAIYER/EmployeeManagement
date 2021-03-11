@@ -69,6 +69,8 @@ public class ProjectServiceImpl implements IProjectService {
 		}
 		Employee employee = employeeDao.findById(employeeId);
 		employees.remove(employee);
+                                  employee.setProject(null);
+		employeeDao.update(employee);
 		return project;
 	}
 
